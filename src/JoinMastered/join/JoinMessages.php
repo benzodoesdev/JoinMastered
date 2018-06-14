@@ -6,7 +6,7 @@ namespace JoinMastered\join;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 
-class JoinMastered implements Listener{
+class JoinMessages implements Listener{
 
     public function onJoin(PlayerJoinEvent $event) : void{
         $player = $event->getPlayer();
