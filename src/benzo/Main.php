@@ -2,8 +2,6 @@
 
 namespace benzo;
 
-use JoinMastered\join\JoinMessage;
-use JoinMastered\join\JoinTitle;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
