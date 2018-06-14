@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace JoinMastered\join;
 
-use JoinMastered\src\Main;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\network\mcpe\protocol\LevelEventPacket;
