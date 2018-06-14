@@ -10,7 +10,7 @@ class Main extends PluginBase{
     private $joinmessage;
     /** @var JoinTitle $jointitle */
     private $jointitle;
-    public function onEnable(){a
+    public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents(new JoinMessage($this), $this);
         $this->getServer()->getPluginManager()->registerEvents(new JoinTitle($this), $this);
     }
