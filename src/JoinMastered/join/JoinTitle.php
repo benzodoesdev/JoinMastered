@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace JoinMastered\src\JoinTitle;
+namespace JoinMastered\join;
 
 use JoinMastered\src\Main;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\network\mcpe\protocol\LevelEventPacket;
 
-class JoinMastered implements Listener{
+class JoinTitle implements Listener{
 
 
 
